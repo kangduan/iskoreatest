@@ -849,13 +849,14 @@ width: 100%;
 
 /*mouse scroll icon*/
 @import "bourbon"; // Include Bourbon
-$bg-and-border: #BEBCBC; // Base color
+$bg-and-border: #FFF; // Base color
 
-@include keyframes(scroll) { // Animated circle keyframes
+@include keyframes(scroll) {
   0% { @include transform(translateY(0)) }
   50% { @include transform(translateY(10px)) }
   100% { @include transform(translateY(0)) }
 }
+
 .center-it { // Center to page
   @include position(absolute, 50% null null 50%);
 	@include transform(translate(-50%, -50%));
@@ -865,7 +866,6 @@ $bg-and-border: #BEBCBC; // Base color
 
 .mouse { // Mouse icon
   display: inline-block;
-  color: #fff;
   @include size(28px 44px); // Define sizes
   border-radius: 12px; // Define edge radius
   border: 2px solid $bg-and-border; // Edge width and colors
@@ -879,7 +879,6 @@ $bg-and-border: #BEBCBC; // Base color
     @include animation(scroll 1.3s ease-out infinite forwards); // Keyframe animation
   }
 }
-
 /* Animation Timers
 ---------------------------------*/
 .delay-02s {
