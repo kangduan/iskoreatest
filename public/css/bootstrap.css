@@ -5301,6 +5301,7 @@ button.close {
   width: 100%;
 }
 .carousel-inner > .item {
+  width: 100%;
   display: none;
   position: relative;
   -webkit-transition: 0.6s ease-in-out left;

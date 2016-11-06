@@ -847,6 +847,38 @@ width: 100%;
 .nav-pills>li[data-slide-to="3"].active a { background-color: #8e44ad; }
 .nav-pills>li[data-slide-to="4"].active a { background-color: #8e44ad; }
 
+/*mouse scroll icon*/
+@import "bourbon"; // Include Bourbon
+$bg-and-border: #BEBCBC; // Base color
+
+@include keyframes(scroll) { // Animated circle keyframes
+  0% { @include transform(translateY(0)) }
+  50% { @include transform(translateY(10px)) }
+  100% { @include transform(translateY(0)) }
+}
+.center-it { // Center to page
+  @include position(absolute, 50% null null 50%);
+	@include transform(translate(-50%, -50%));
+}
+
+.caption { margin-top: 10px } // Margin for dummy text
+
+.mouse { // Mouse icon
+  display: inline-block;
+  @include size(28px 44px); // Define sizes
+  border-radius: 12px; // Define edge radius
+  border: 2px solid $bg-and-border; // Edge width and colors
+  text-align: center; // Center animated circle in mouse icon
+  &:after { // Animated circle
+    display: inline-block;
+    @include size(8px); // Circle size
+    background-color: $bg-and-border; // Circle color
+    border-radius: 50%; // Become rounded corner
+    content: "";
+    @include animation(scroll 1.3s ease-out infinite forwards); // Keyframe animation
+  }
+}
+
 /* Animation Timers
 ---------------------------------*/
 .delay-02s {
