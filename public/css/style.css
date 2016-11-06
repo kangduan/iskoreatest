@@ -847,14 +847,30 @@ border: 2px solid #fff;
       height: 480px;
     }
 #thumbnail-preview-indicators .slides .slide-1 {
-  background-image: url(https://s3.amazonaws.com/ooomf-com-files/wdXqHcTwSTmLuKOGz92L_Landscape.jpg);
+  background:url(../img/slide/best copy.png);
 }
 #thumbnail-preview-indicators .slides .slide-2 {
-  background-image: url(https://s3.amazonaws.com/ooomf-com-files/tU3ptNgGSP6U2fE67Gvy_SYDNEY-162.jpg);
+  background:url(../img/slide/best2.png);
 }
 #thumbnail-preview-indicators .slides .slide-3 {
-  background-image: url(https://s3.amazonaws.com/ooomf-com-files/mtNrf7oxS4uSxTzMBWfQ_DSC_0043.jpg);
+  background:url(../img/slide/best3.png);
 }
+#thumbnail-preview-indicators .slides .slide-4 {
+  background:url(../img/slide/callab_1.jpg);
+}
+#thumbnail-preview-indicators .slides .slide-5 {
+  background:url(../img/slide/callab_2.jpg);
+}
+#thumbnail-preview-indicators .slides .slide-6 {
+  background:url(../img/slide/create.png);
+}
+#thumbnail-preview-indicators .slides .slide-7 {
+  background:url(../img/slide/innovate.png);
+}
+#thumbnail-preview-indicators .slides .slide-8 {
+  background:url(../img/slide/main_theme3.jpg);
+}
+
 #thumbnail-preview-indicators .carousel-inner .item .carousel-caption {
   top: 20%;
   bottom: inherit;
