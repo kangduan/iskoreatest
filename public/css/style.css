@@ -98,7 +98,7 @@ p{
 .header{
 	text-align:center;
 	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:100px 0;
+	padding:70px 0;
 }
 .logo{
 	width:800px;
@@ -933,8 +933,8 @@ p {
 .scroll-btn .mouse {
 	position: relative;
 	display: block;
-	width: 20px;
-	height: 30px;
+	width: 30px;
+	height: 45px;
 	margin: 0 auto 20px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
