@@ -824,7 +824,9 @@ border: 2px solid #fff;
 }
 
 /*slide*/
-
+#myCarousel {
+   background-size: cover;
+}
 #myCarousel .nav a small
 {
     display: block;
@@ -842,6 +844,7 @@ border: 2px solid #fff;
 .nav-pills>li[data-slide-to="2"].active a { background-color: #2980b9; }
 .nav-pills>li[data-slide-to="3"].active a { background-color: #8e44ad; }
 .nav-pills>li[data-slide-to="4"].active a { background-color: #8e44ad; }
+
 
 /*mouse icon*/
 p {
