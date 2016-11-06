@@ -865,6 +865,7 @@ $bg-and-border: #BEBCBC; // Base color
 
 .mouse { // Mouse icon
   display: inline-block;
+  color: #fff;
   @include size(28px 44px); // Define sizes
   border-radius: 12px; // Define edge radius
   border: 2px solid $bg-and-border; // Edge width and colors
