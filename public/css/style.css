@@ -856,6 +856,12 @@ $bg-and-border: #FFF; // Base color
   50% { @include transform(translateY(10px)) }
   100% { @include transform(translateY(0)) }
 }
+body { // Page styles
+  background-color: #000;
+  text-align: center;
+  font: 15px "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #BEBCBC;
+}
 
 .center-it { // Center to page
   @include position(absolute, 50% null null 50%);
