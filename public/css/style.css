@@ -834,11 +834,11 @@ border: 2px solid #fff;
 {
     border-radius: 0px;
 }
-.nav-pills>li[data-slide-to="0"].active a { background:url(../img/slide/slide-1.jpg); }
-.nav-pills>li[data-slide-to="1"].active a { background:url(../img/slide/slide-2.jpg); }
-.nav-pills>li[data-slide-to="2"].active a { background:url(../img/slide/slide-3.jpg); }
-.nav-pills>li[data-slide-to="3"].active a { background:url(../img/slide/slide-4.jpg); }
-.nav-pills>li[data-slide-to="4"].active a { background:url(../img/slide/slide-5.jpg); }
+.nav-pills>li[data-slide-to="0"].active a { background-color: #16a085; }
+.nav-pills>li[data-slide-to="1"].active a { background-color: #e67e22; }
+.nav-pills>li[data-slide-to="2"].active a { background-color: #2980b9; }
+.nav-pills>li[data-slide-to="3"].active a { background-color: #8e44ad; }
+.nav-pills>li[data-slide-to="4"].active a { background-color: #8e44ad; }
 
 /* Animation Timers
 ---------------------------------*/
