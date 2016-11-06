@@ -822,156 +822,6 @@ border: 2px solid #fff;
 	max-width: 1140px;
 }
 /*
------------------------------------
-    Code snippet by @maridlcrmn
-    Credits images: www.unsplash.com
------------------------------------
-*/
-/*
-#thumbnail-preview-indicators {
-  position: relative;
-  overflow: hidden;
-}
-#thumbnail-preview-indicators .slides .slide-1,
-#thumbnail-preview-indicators .slides .slide-2,
-#thumbnail-preview-indicators .slides .slide-3,
-#thumbnail-preview-indicators .slides .slide-4,
-#thumbnail-preview-indicators .slides .slide-5,
-#thumbnail-preview-indicators .slides .slide-6,
-#thumbnail-preview-indicators .slides .slide-7,
-#thumbnail-preview-indicators .slides .slide-8 {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-    #thumbnail-preview-indicators,
-    #thumbnail-preview-indicators .slides,
-    #thumbnail-preview-indicators .slides .slide-1,
-    #thumbnail-preview-indicators .slides .slide-2,
-    #thumbnail-preview-indicators .slides .slide-3,
-    #thumbnail-preview-indicators .slides .slide-4,
-    #thumbnail-preview-indicators .slides .slide-3,
-    #thumbnail-preview-indicators .slides .slide-5,
-    #thumbnail-preview-indicators .slides .slide-6,
-    #thumbnail-preview-indicators .slides .slide-7,
-    #thumbnail-preview-indicators .slides .slide-8 {
-      height: 480px;
-    }
-#thumbnail-preview-indicators .slides .slide-1 {
-  background:url(../img/slide/best copy.png);
-}
-#thumbnail-preview-indicators .slides .slide-2 {
-  background:url(../img/slide/best2.png);
-}
-#thumbnail-preview-indicators .slides .slide-3 {
-  background:url(../img/slide/best3.png);
-}
-#thumbnail-preview-indicators .slides .slide-4 {
-  background:url(../img/slide/callab_1.jpg);
-}
-#thumbnail-preview-indicators .slides .slide-5 {
-  background:url(../img/slide/callab_2.jpg);
-}
-#thumbnail-preview-indicators .slides .slide-6 {
-  background:url(../img/slide/create.png);
-}
-#thumbnail-preview-indicators .slides .slide-7 {
-  background:url(../img/slide/innovate.png);
-}
-#thumbnail-preview-indicators .slides .slide-8 {
-  background:url(../img/slide/main_theme3.jpg);
-}
-
-#thumbnail-preview-indicators .carousel-inner .item .carousel-caption {
-  top: 20%;
-  bottom: inherit;
-}
-#thumbnail-preview-indicators .carousel-indicators li,
-#thumbnail-preview-indicators .carousel-indicators li.active {
-  position: relative;
-  width: 100px;
-  height: 8px;
-}
-#thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
-  position: absolute;
-  top: 0;
-  width: 100px;
-  display: none;
-  opacity: 0;
-  left: 50%;
-  margin-top: -80px;
-  margin-left: -50px;
-}
-#thumbnail-preview-indicators .carousel-indicators li:hover > .thumbnail,
-#thumbnail-preview-indicators .carousel-indicators li.active > .thumbnail {
-  display: block;
-  opacity: .8;
-}
-#thumbnail-preview-indicators .carousel-indicators li.active > .thumbnail:hover{
-  opacity: 1;
-}
-@media screen and (max-width : 480px) {
-    #thumbnail-preview-indicators .carousel-indicators li,
-    #thumbnail-preview-indicators .carousel-indicators li.active {
-      width: 50px;
-      height: 8px;
-      position: relative;
-    }
-    #thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
-       width: 50px;
-       left: 50%;
-       margin-top: -50px;
-       margin-left: -25px;
-    }
-}
-
-*/
-/* Animation Timers
----------------------------------*/
-.delay-02s {
-	animation-delay: 0.2s;
-	-webkit-animation-delay: 0.2s;
-}
-.delay-03s {
-	animation-delay: 0.3s;
-	-webkit-animation-delay: 0.3s;
-}
-.delay-04s {
-	animation-delay: 0.4s;
-	-webkit-animation-delay: 0.4s;
-}
-
-.delay-05s {
-	animation-delay: 0.5s;
-	-webkit-animation-delay: 0.5s;
-}
-.delay-06s {
-	animation-delay: 0.6s;
-	-webkit-animation-delay: 0.6s;
-}
-
-.delay-07s {
-	animation-delay: 0.7s;
-	-webkit-animation-delay: 0.7s;
-}
-.delay-08s {
-	animation-delay: 0.8s;
-	-webkit-animation-delay: 0.8s;
-}
-
-.delay-09s {
-	animation-delay: 0.9s;
-	-webkit-animation-delay: 0.9s;
-}
-.delay-1s {
-	animation-delay: 1s;
-	-webkit-animation-delay: 1s;
-}
-.delay-12s {
-	animation-delay: 1.2s;
-	-webkit-animation-delay: 1.2s;
-}
-/*
 Fade content bs-carousel with hero headers
 Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
 Image credits: unsplash.com
@@ -1079,14 +929,30 @@ Image credits: unsplash.com
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url(https://ununsplash.imgix.net/photo-1416339134316-0e91dc9ded92?q=75&fm=jpg&s=883a422e10fc4149893984019f63c818);
+  background:url(../img/slide/best copy.png)
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url(https://ununsplash.imgix.net/photo-1416339684178-3a239570f315?q=75&fm=jpg&s=c39d9a3bf66d6566b9608a9f1f3765af);
+  background:url(../img/slide/best2.png)
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url(https://ununsplash.imgix.net/photo-1416339276121-ba1dfa199912?q=75&fm=jpg&s=9bf9f2ef5be5cb5eee5255e7765cb327);
+  background:url(../img/slide/best4.png)
 }
+.fade-carousel .slides .slide-4 {
+  background:url(../img/slide/callab_1.jpg)
+}
+.fade-carousel .slides .slide-5 {
+  background:url(../img/slide/callab_2.jpg)
+}
+.fade-carousel .slides .slide-6 {
+  background:url(../img/slide/create.png)
+}
+.fade-carousel .slides .slide-7 {
+  background:url(../img/slide/innovate.png)
+}
+.fade-carousel .slides .slide-8 {
+  background:url(../img/slide/main theme3.jpg)
+}
+
 
 /********************************/
 /*          Media Queries       */
@@ -1097,34 +963,49 @@ Image credits: unsplash.com
 @media screen and (max-width: 640px){
     .hero h1 { font-size: 4em; }
 }
-/* Navigation Bar ( Navbar ) */
 
-nav.navbar {
-	position: absolute;
-	z-index: 9500;
-	width: 100%;
-	width: 100vw;
-	-webkit-transition: all 0.3s ease;
-	transition: all 0.3s ease;
+/* Animation Timers
+---------------------------------*/
+.delay-02s {
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.delay-03s {
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.delay-04s {
+	animation-delay: 0.4s;
+	-webkit-animation-delay: 0.4s;
 }
 
-nav.navbar .navbar-nav li.active a:not(.btn) {
-	color: #00a8ff !important;
+.delay-05s {
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.delay-06s {
+	animation-delay: 0.6s;
+	-webkit-animation-delay: 0.6s;
 }
 
-nav.navbar-fixed-top {
-	z-index: 9499;
-	top: 0;
-	padding: 25px 0;
-	opacity: 0;
-	background: white;
-	box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.05);
+.delay-07s {
+	animation-delay: 0.7s;
+	-webkit-animation-delay: 0.7s;
+}
+.delay-08s {
+	animation-delay: 0.8s;
+	-webkit-animation-delay: 0.8s;
 }
 
-nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
-	color: #bbb;
+.delay-09s {
+	animation-delay: 0.9s;
+	-webkit-animation-delay: 0.9s;
 }
-
-.icon-bar {
-	background: #bbb;
+.delay-1s {
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+}
+.delay-12s {
+	animation-delay: 1.2s;
+	-webkit-animation-delay: 1.2s;
 }
