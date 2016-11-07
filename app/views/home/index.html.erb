@@ -16,7 +16,6 @@
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 <link href="css/animate.css" rel="stylesheet" type="text/css">
-<link href="css/cardio.css" rel="stylesheet" type="text/css">
 
 <!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
 
@@ -375,125 +374,181 @@
 				<div class="cut cut-top"></div>
 			 	<h2>Recruitment</h2>
           <h6>Apply IS_KOREARENTAL_VINA.</h6>
-						<div class="container">
-							<div class="row intro-tables">
-								<div class="col-md-4">
-									<div class="intro-table intro-table-first">
-										<h5 class="white heading">Today's Schedule</h5>
-										<div class="owl-carousel owl-schedule bottom">
-											<div class="item">
-												<div class="schedule-row row">
-													<div class="col-xs-6">
-														<h5 class="regular white">Early Exercise</h5>
-													</div>
-													<div class="col-xs-6 text-right">
-														<h5 class="white">8:30 - 10:00</h5>
-													</div>
-												</div>
-												<div class="schedule-row row">
-													<div class="col-xs-6">
-														<h5 class="regular white">Muscle Building</h5>
-													</div>
-													<div class="col-xs-6 text-right">
-														<h5 class="white">8:30 - 10:00</h5>
-													</div>
-												</div>
-												<div class="schedule-row row">
-													<div class="col-xs-6">
-														<h5 class="regular white">Cardio</h5>
-													</div>
-													<div class="col-xs-6 text-right">
-														<h5 class="white">8:30 - 10:00</h5>
-													</div>
-												</div>
-											</div>
-											<div class="item">
-												<div class="schedule-row row">
-													<div class="col-xs-6">
-														<h5 class="regular white">Early Exercise</h5>
-													</div>
-													<div class="col-xs-6 text-right">
-														<h5 class="white">8:30 - 10:00</h5>
-													</div>
-												</div>
-												<div class="schedule-row row">
-													<div class="col-xs-6">
-														<h5 class="regular white">Muscle Building</h5>
-													</div>
-													<div class="col-xs-6 text-right">
-														<h5 class="white">8:30 - 10:00</h5>
-													</div>
-												</div>
-												<div class="schedule-row row">
-													<div class="col-xs-6">
-														<h5 class="regular white">Cardio</h5>
-													</div>
-													<div class="col-xs-6 text-right">
-														<h5 class="white">8:30 - 10:00</h5>
-													</div>
-												</div>
-											</div>
-											<div class="item">
-												<div class="schedule-row row">
-													<div class="col-xs-6">
-														<h5 class="regular white">Early Exercise</h5>
-													</div>
-													<div class="col-xs-6 text-right">
-														<h5 class="white">8:30 - 10:00</h5>
-													</div>
-												</div>
-												<div class="schedule-row row">
-													<div class="col-xs-6">
-														<h5 class="regular white">Muscle Building</h5>
-													</div>
-													<div class="col-xs-6 text-right">
-														<h5 class="white">8:30 - 10:00</h5>
-													</div>
-												</div>
-												<div class="schedule-row row">
-													<div class="col-xs-6">
-														<h5 class="regular white">Cardio</h5>
-													</div>
-													<div class="col-xs-6 text-right">
-														<h5 class="white">8:30 - 10:00</h5>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4">
-									<div class="intro-table intro-table-hover">
-										<h5 class="white heading hide-hover">Premium Membership</h5>
-										<div class="bottom">
-											<h4 class="white heading small-heading no-margin regular">Register Today</h4>
-											<h4 class="white heading small-pt">20% Discount</h4>
-											<a href="#" class="btn btn-white-fill expand">Register</a>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4">
-									<div class="intro-table intro-table-third">
-										<h5 class="white heading">Happy Clients</h5>
-										<div class="owl-testimonials bottom">
-											<div class="item">
-												<h4 class="white heading content">I couldn't be more happy with the results!</h4>
-												<h5 class="white heading light author">Adam Jordan</h5>
-											</div>
-											<div class="item">
-												<h4 class="white heading content">I can't believe how much better I feel!</h4>
-												<h5 class="white heading light author">Greg Pardon</h5>
-											</div>
-											<div class="item">
-												<h4 class="white heading content">Incredible transformation and I feel so healthy!</h4>
-												<h5 class="white heading light author">Christina Goldman</h5>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+					<div class="container">
+<div class="row">
 
+	<section class="content">
+		<h1>Table Filter</h1>
+		<div class="col-md-8 col-md-offset-2">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="pull-right">
+						<div class="btn-group">
+							<button type="button" class="btn btn-success btn-filter" data-target="pagado">Pagado</button>
+							<button type="button" class="btn btn-warning btn-filter" data-target="pendiente">Pendiente</button>
+							<button type="button" class="btn btn-danger btn-filter" data-target="cancelado">Cancelado</button>
+							<button type="button" class="btn btn-default btn-filter" data-target="all">Todos</button>
+						</div>
+					</div>
+					<div class="table-container">
+						<table class="table table-filter">
+							<tbody>
+								<tr data-status="pagado">
+									<td>
+										<div class="ckbox">
+											<input type="checkbox" id="checkbox1">
+											<label for="checkbox1"></label>
+										</div>
+									</td>
+									<td>
+										<a href="javascript:;" class="star">
+											<i class="glyphicon glyphicon-star"></i>
+										</a>
+									</td>
+									<td>
+										<div class="media">
+											<a href="#" class="pull-left">
+												<img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+											</a>
+											<div class="media-body">
+												<span class="media-meta pull-right">Febrero 13, 2016</span>
+												<h4 class="title">
+													Lorem Impsum
+													<span class="pull-right pagado">(Pagado)</span>
+												</h4>
+												<p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr data-status="pendiente">
+									<td>
+										<div class="ckbox">
+											<input type="checkbox" id="checkbox3">
+											<label for="checkbox3"></label>
+										</div>
+									</td>
+									<td>
+										<a href="javascript:;" class="star">
+											<i class="glyphicon glyphicon-star"></i>
+										</a>
+									</td>
+									<td>
+										<div class="media">
+											<a href="#" class="pull-left">
+												<img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+											</a>
+											<div class="media-body">
+												<span class="media-meta pull-right">Febrero 13, 2016</span>
+												<h4 class="title">
+													Lorem Impsum
+													<span class="pull-right pendiente">(Pendiente)</span>
+												</h4>
+												<p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr data-status="cancelado">
+									<td>
+										<div class="ckbox">
+											<input type="checkbox" id="checkbox2">
+											<label for="checkbox2"></label>
+										</div>
+									</td>
+									<td>
+										<a href="javascript:;" class="star">
+											<i class="glyphicon glyphicon-star"></i>
+										</a>
+									</td>
+									<td>
+										<div class="media">
+											<a href="#" class="pull-left">
+												<img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+											</a>
+											<div class="media-body">
+												<span class="media-meta pull-right">Febrero 13, 2016</span>
+												<h4 class="title">
+													Lorem Impsum
+													<span class="pull-right cancelado">(Cancelado)</span>
+												</h4>
+												<p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr data-status="pagado" class="selected">
+									<td>
+										<div class="ckbox">
+											<input type="checkbox" id="checkbox4" checked>
+											<label for="checkbox4"></label>
+										</div>
+									</td>
+									<td>
+										<a href="javascript:;" class="star star-checked">
+											<i class="glyphicon glyphicon-star"></i>
+										</a>
+									</td>
+									<td>
+										<div class="media">
+											<a href="#" class="pull-left">
+												<img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+											</a>
+											<div class="media-body">
+												<span class="media-meta pull-right">Febrero 13, 2016</span>
+												<h4 class="title">
+													Lorem Impsum
+													<span class="pull-right pagado">(Pagado)</span>
+												</h4>
+												<p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr data-status="pendiente">
+									<td>
+										<div class="ckbox">
+											<input type="checkbox" id="checkbox5">
+											<label for="checkbox5"></label>
+										</div>
+									</td>
+									<td>
+										<a href="javascript:;" class="star">
+											<i class="glyphicon glyphicon-star"></i>
+										</a>
+									</td>
+									<td>
+										<div class="media">
+											<a href="#" class="pull-left">
+												<img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="media-photo">
+											</a>
+											<div class="media-body">
+												<span class="media-meta pull-right">Febrero 13, 2016</span>
+												<h4 class="title">
+													Lorem Impsum
+													<span class="pull-right pendiente">(Pendiente)</span>
+												</h4>
+												<p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+											</div>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="content-footer">
+				<p>
+					Page © - 2016 <br>
+					Powered By <a href="https://www.facebook.com/tavo.qiqe.lucero" target="_blank">TavoQiqe</a>
+				</p>
+			</div>
+		</div>
+	</section>
+
+</div>
+</div>
 </section><!--main-section team-end-->
 
 
@@ -693,6 +748,29 @@ $(document).ready( function() {
 		clickEvent = false;
 	});
 });
+</script>
+<script>
+$(document).ready(function () {
+
+	$('.star').on('click', function () {
+      $(this).toggleClass('star-checked');
+    });
+
+    $('.ckbox label').on('click', function () {
+      $(this).parents('tr').toggleClass('selected');
+    });
+
+    $('.btn-filter').on('click', function () {
+      var $target = $(this).data('target');
+      if ($target != 'all') {
+        $('.table tr').css('display', 'none');
+        $('.table tr[data-status="' + $target + '"]').fadeIn('slow');
+      } else {
+        $('.table tr').css('display', 'none').fadeIn('slow');
+      }
+    });
+
+ });
 </script>
 <!-- down scroll
 <script>
