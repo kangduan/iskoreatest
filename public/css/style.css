@@ -443,15 +443,15 @@ img {
 }
 .quote-right{
 	font-style:normal;
-	width:68px;
-	height:68px;
+	width:40px;
+	height:40px;
 	margin:0 auto;
 	border:2px solid #7cc576;
 	border-radius:50%;
 	display:block;
 	line-height:68px;
 	text-align:center;
-	font-size:27px;
+	font-size:15px;
 	color:#7cc576;
 	cursor: pointer;
 	transition:all 0.3s ease-in-out;
