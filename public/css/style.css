@@ -960,17 +960,7 @@ p {
 	animation: ani-mouse 2.5s linear infinite;
 }
 /*recruit*/
-.cut-top {
-	content: ' ';
-	position: absolute;
-	z-index: 1;
-	top: -80px;
-	left: 0;
-	width: 0;
-	height: 0;
-	border-top: 80px solid transparent;
-	border-right: 30px solid white;
-}
+
 /* Animation Timers
 ---------------------------------*/
 .delay-02s {
