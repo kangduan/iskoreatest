@@ -446,12 +446,12 @@ img {
 	width:40px;
 	height:40px;
 	margin:0 auto;
-	border:2px solid #7cc576;
+	border:1px solid #7cc576;
 	border-radius:50%;
 	display:block;
 	line-height:68px;
 	text-align:center;
-	font-size:15px;
+	font-size:8px;
 	color:#7cc576;
 	cursor: pointer;
 	transition:all 0.3s ease-in-out;
@@ -959,7 +959,18 @@ p {
 	-moz-animation: ani-mouse 2.5s linear infinite;
 	animation: ani-mouse 2.5s linear infinite;
 }
-
+/*recruit*/
+.cut-top {
+	content: ' ';
+	position: absolute;
+	z-index: 1;
+	top: -80px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-top: 80px solid transparent;
+	border-right: 30px solid white;
+}
 /* Animation Timers
 ---------------------------------*/
 .delay-02s {
