@@ -960,31 +960,26 @@ p {
 	animation: ani-mouse 2.5s linear infinite;
 }
 /*recruit*/
-.form-control{border:0; box-shadow:none}
-.form-control:focus{box-shadow:none;}
-
-label{color:#999;  padding-top: 5px; display:block; left:0; width:100%}
-
-.panel{border-width:2px; border-radius:7px}
-
-.table-bordered > thead > tr > th,
-.table-bordered > tbody > tr > th,
-.table-bordered > tfoot > tr > th,
-.table-bordered > thead > tr > td,
-.table-bordered > tbody > tr > td,
-.table-bordered > tfoot > tr > td{border:2px solid #eee; vertical-align: middle;}
-.table-bordered{border-radius:7px}
-
-.form-control::-moz-placeholder {
-color: #999;
-opacity: 1
+.row{
+  margin-top:40px;
+  padding: 0 10px;
 }
-.form-control:-ms-input-placeholder {
-color: #999
+.clickable{
+  cursor: pointer;
 }
-.form-control::-webkit-input-placeholder {
-color: #999
+
+.panel-heading div {
+margin-top: -18px;
+font-size: 15px;
+
 }
+.panel-heading div span{
+margin-left:5px;
+}
+.panel-body{
+display: none;
+}
+
 /* Animation Timers
 ---------------------------------*/
 .delay-02s {
