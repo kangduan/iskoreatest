@@ -15,14 +15,16 @@
 </head>
 <body>
 	<nav class="main-nav-outer" id="test"><!--main-nav-start-->
-	<div class="container collapse navbar-collapse">
-        <ul class="main-nav nav navbar-nav">
+	<div class="container">
+        <ul class="main-nav">
         	<li class="small-logo"><a href="#"><img src="img/logo/is-logo.png" alt=""></a></li>
 					   <li>
 								 <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
-								 <ul class="dropdown-menu multi-level">
+								 <ul class="dropdown-menu">
 										 <li><a href="/home/group">Group vision</a></li>
+										 <li class="divider"></li>
 										 <li><a href="/home/history">History</a></li>
+										 <li class="divider"></li>
 										 <li><a href="/home/rental">Rental System</a></li>
 								 </ul>
 						 </li>
@@ -33,6 +35,11 @@
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
     </div>
 </nav><!--main-nav-end-->
+<script>
+$(document).ready(function(){
+    $(".dropdown-toggle").dropdown();
+});
+</script>
 	<!-- slide- menu -->
 	<!-- div class="container"-->
 	<div class="container">
