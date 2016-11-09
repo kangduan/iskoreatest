@@ -6,18 +6,12 @@
 <title>IS_KOREARENTAL_VINA</title>
 <link rel="icon" href="favicon.png" type="image/png">
 <link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
-<!-- =======================================================
-    Theme Name: Knight
-    Theme URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-======================================================= -->
+
 </head>
 <body>
 
 	<!-- slide- menu -->
 	<!-- div class="container"-->
-	<div class="container">
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner">
@@ -70,7 +64,6 @@
 								dolor sit</small></a></li>
 				</ul>
 		</div>
-	</div>
 		<!-- End Carousel -->
 	<nav class="main-nav-outer" id="test"><!--main-nav-start-->
 		<div class="container">
@@ -404,8 +397,6 @@
 			</div>
 </section>
 
-
-
 <!--
 <section class="business-talking"><!--business-talking-start
 	<div class="container">
@@ -419,7 +410,7 @@
  <h2>Map</h2>
  <h6>Hanoi & Hochiminh</h6>
  <div class="container">
- <div id="mapCarousel" class="carousel slide col-md-10 col-sm-6" data-ride="carousel" align="center">
+ <div id="mapCarousel" class="carousel slide col-md-12 col-sm-6" data-ride="carousel" align="center">
 		 <!-- Wrapper for slides -->
 		 <div class="carousel-inner">
 				 <div class="item active">
@@ -507,6 +498,7 @@
         </div>
 </section>
 </div>
+<a href="#top-anchor"><i class="fa fa-chevron-up"></i></a>
 <footer class="footer">
     <div class="container">
         <div class="footer-logo"><a href="#"><img src="img/menu-logo.png" alt=""></a></div>
@@ -521,7 +513,25 @@
         </div>
     </div>
 </footer>
+<!-- upscroll -->
+<script>
 
+$(function() {
+$('a[href*=#]:not([href=#])').click(function() {
+if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+var target = $(this.hash);
+target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+if (target.length) {
+$('html,body').animate({
+scrollTop: target.offset().top
+}, 600);
+return false;
+}
+}
+});
+});
+
+</script>
 
 <script type="text/javascript">
     $(document).ready(function(e) {

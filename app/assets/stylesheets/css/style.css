@@ -974,7 +974,11 @@ margin-left:5px;
 .panel-body{
 display: none;
 }
-/*dropdown menu*/
+/*upscroll*/
+.arrow-up {
+float: right;
+text-decoration: none;
+}
 
 /* Animation Timers
 ---------------------------------*/

@@ -1,10 +1,9 @@
 class HomeController < ApplicationController
   def index
   end
-  def group
+  def about
   end
-  def history
+  def product
   end
-  def rental
-  end
+
 end
