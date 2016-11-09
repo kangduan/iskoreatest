@@ -3,7 +3,7 @@ class HomeController < ApplicationController
   end
   def about
   end
-  def product-pc
+  def pc
   end
 
 end
