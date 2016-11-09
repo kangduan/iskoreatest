@@ -971,12 +971,12 @@ p {
     color: #FFF;
 }
 /*product menu*/
-.product-dropdown {
+.dropdown {
     position: relative;
     display: inline-block;
 }
 
-.product-dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -984,20 +984,20 @@ p {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.product-dropdown-content a {
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
-.product-dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #f1f1f1}
 
-.product-dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
 }
 
-.product-dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
 
