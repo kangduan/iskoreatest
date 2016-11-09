@@ -931,24 +931,28 @@ p {
 	animation: ani-mouse 2.5s linear infinite;
 }
 /*recruit*/
-.row{
-  margin-top:40px;
-  padding: 0 10px;
+.filterable {
+    margin-top: 15px;
 }
-.clickable{
-  cursor: pointer;
+.filterable .panel-heading .pull-right {
+    margin-top: -20px;
 }
-
-.panel-heading div {
-margin-top: -18px;
-font-size: 15px;
-
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
 }
-.panel-heading div span{
-margin-left:5px;
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
 }
-.panel-body{
-display: none;
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
 }
 /*upscroll*/
 .back-to-top {
