@@ -5292,6 +5292,15 @@ button.close {
   border-left-color: #ffffff;
   bottom: -10px;
 }
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 .carousel {
   position: relative;
 }
