@@ -6,6 +6,12 @@ Rails.application.routes.draw do
   root 'home#index'
   get 'home/about'
   get 'home/pc'
+  get 'home/copy'
+  get 'home/car'
+  get 'home/manlift'
+  get 'home/forklift'
+  get 'home/tmi'
+  get 'home/printer'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
