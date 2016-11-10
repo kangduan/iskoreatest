@@ -11,7 +11,7 @@
 <body>
 	<!-- Preloader
 ============================================= -->
-	<div class="preloader"><i class="fa fa-circle-o-notch fa-spin fa-2x"></i></div>
+<div id="loader"></div>
 	<!-- slide- menu -->
 	    <div class="row">
 	        <div class="col-md-12">
@@ -705,11 +705,7 @@ $(document).ready(function(){
       }
     );
     wow.init();
-		var preloader = $('.preloader');
-		$(window).load(function () {
-				preloader.remove();
-		});
-		})
+
   </script>
 
 
@@ -920,6 +916,19 @@ $(document).ready(function(){
         }
     });
 });
+</script>
+<!-- loader -->
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
 </script>
 
 </body>
