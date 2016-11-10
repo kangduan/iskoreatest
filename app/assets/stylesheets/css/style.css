@@ -607,32 +607,6 @@ border: 2px solid #fff;
 
 /* Contact
 ---------------------------------*/
-#contact {
-  padding: 60px 0;
-  text-align: center;
-}
-#contact h2 {
-  text-transform: uppercase;
-}
-#contact form {
-  margin: 40px 0;
-}
-#contact .form-group {
-  margin-bottom: 35px;
-}
-#contact .form-control {
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  border-radius: 0;
-  border: 2px solid #24242a;
-  color: #0d0d0d;
-  min-height: 45px;
-}
-#contact textarea {
-  height: 140px;
-  resize: none;
-}
-
 .main-section.contact{
 	padding:90px 0 100px;
 }
@@ -1062,6 +1036,32 @@ p {
 
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+}
+/*loader icon*/
+/* ==========================================================================
+Preloader Style
+========================================================================== */
+.preloader {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 999999;
+background: #24242a;
+}
+.preloader i {
+color: #fff;
+position: absolute;
+font-size: 36px;
+line-height: 36px;
+top: 50%;
+left: 50%;
+height: 36px;
+width: 36px;
+margin-top: -15px;
+margin-left: -15px;
+display: inline-block;
 }
 
 /* Animation Timers
