@@ -992,7 +992,6 @@ p {
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1}
-*/
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -1000,7 +999,7 @@ p {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-
+*/
 /* Animation Timers
 ---------------------------------*/
 .delay-02s {
