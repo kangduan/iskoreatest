@@ -705,6 +705,11 @@ $(document).ready(function(){
       }
     );
     wow.init();
+		var preloader = $('.preloader');
+		$(window).load(function () {
+				preloader.remove();
+		});
+		})
   </script>
 
 
@@ -916,13 +921,6 @@ $(document).ready(function(){
     });
 });
 </script>
-<!-- loading -->
-<script>
-var preloader = $('.preloader');
-$(window).load(function () {
-		preloader.remove();
-});
-})
-</script>
+
 </body>
 </html>
