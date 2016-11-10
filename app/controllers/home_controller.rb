@@ -1,6 +1,16 @@
 class HomeController < ApplicationController
   def index
   end
+  #email
+  def write
+    @name = params[:name]
+    @email = params[:email]
+    @content = params[:content]
+
+    redirect_to : "/"
+
+  end
+
   def about
   end
   def pc
