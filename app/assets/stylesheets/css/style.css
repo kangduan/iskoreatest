@@ -441,15 +441,15 @@ img {
 }
 .quote-right{
 	font-style:normal;
-	width:50px;
-	height:50px;
+	width:70px;
+	height:70px;
 	margin:0 auto;
 	border:2px solid #7cc576;
-	border-radius:50%;
+	border-radius:70%;
 	display:block;
 	line-height:68px;
 	text-align:center;
-	font-size:15px;
+	font-size:25px;
 	color:#7cc576;
 	cursor: pointer;
 	transition:all 0.3s ease-in-out;
