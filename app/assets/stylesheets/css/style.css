@@ -399,7 +399,8 @@ img {
 /* Clients
 ---------------------------------*/
 .client-part{
-	background-image:url(../img/section-bg1.jpg) center center no-repeat;
+  background-color:#0c1a1e;
+	/*background-image:url(../img/section-bg1.jpg) center center no-repeat;*/
 	background-size:cover;
 	padding:55px 0;
 	text-align:center;
