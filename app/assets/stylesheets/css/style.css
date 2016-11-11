@@ -253,7 +253,7 @@ color: #fff;
 	height: 320px;
 	margin: 80px 0;
 	text-align: center;
-	border: 1px solid #ddd;
+	border: 3px solid #000;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
@@ -281,7 +281,7 @@ color: #fff;
 }
 
 .service:hover {
-	border-color: #00a8ff;
+	border-color: #7cc576;
 }
 
 .service:hover .icon-holder {
