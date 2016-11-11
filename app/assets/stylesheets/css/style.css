@@ -830,7 +830,13 @@ border: 2px solid #fff;
 #sendmessage.show, #errormessage.show, .show {
 	display:block;
 }
-
+/*recruit*/
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+}
 /* Footer
 ---------------------------------*/
 .footer { background-color:#0c1a1e; min-height:200px; font-family: 'Open Sans', sans-serif; }
@@ -895,7 +901,7 @@ border: 2px solid #fff;
     top: auto;
     bottom: 100% !important;
 }
-/*button*/
+
 /* Buttons */
 
 .btn {
@@ -1219,56 +1225,6 @@ p {
     background-color: #3e8e41;
 }
 /*accordion*/
-ul.collapsible-doodads {
-  list-style:none;
-  border-top:4px solid #fff;
-  border-left:4px solid #fff;
-  border-right:4px solid #fff;
-  margin:0;
-  position:relative;
-}
-
-ul.collapsible-doodads li {
-  border-bottom:4px solid #fff;
-  background:#f1f1f1;
-  position:relative;
-  padding:1em;
-}
-
-ul.collapsible-doodads li.active {
-  background:#fdfdfd;
-}
-ul.collapsible-doodads li p {
-  transition: height 1s;
-  display:none;
-}
-
-ul.collapsible-doodads li.active p {
-  display:block;
-}
-
-ul.collapsible-doodads li div.gui-button {
-  font-size:36px;
-  float:left;
-  display:block;
-  width:32px;
-  height:32px;
-  background-image: url(http://s.cdpn.io/44303/ui-buttons-sm.png);
-  margin-top:4px;
-  cursor:pointer;
-}
-
-ul.collapsible-doodads li.active div.gui-button {
-  background-position:-32px;
-  margin-top:30px;
-}
-
-ul.collapsible-doodads li div.content {
-  display:block;
-  float:left;
-  margin-left:18px;
-  width:80%;
-}
 
 /* Animation Timers
 ---------------------------------*/
