@@ -405,94 +405,30 @@
           <h6>Apply IS_KOREARENTAL_VINA.</h6>
 
 					<div class="container">
+						<div class="container">
 		    <div class="row">
-		        <div class="panel panel-primary filterable">
-		            <div class="panel-heading">
-		                <h3 class="panel-title">Apply</h3>
-		                <div class="pull-right">
-		                    <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filter</button>
-		                </div>
-		            </div>
-		            <table class="table col-sm-5">
-		                <thead>
-		                    <tr class="filters">
-		                        <th><input type="text" class="form-control" placeholder="Department" disabled></th>
-		                        <th><input type="text" class="form-control" placeholder="Qualification" disabled></th>
-		                        <th><input type="text" class="form-control" placeholder="Preference" disabled></th>
-		                        <th><input type="text" class="form-control" placeholder="Working Condition" disabled></th>
-		                    </tr>
-		                </thead>
-		                <tbody>
-		                    <tr>
-		                        <td>Business Management (HR)</td>
-		                        <td>University Graduate / Major Independent, <br>
-															  Using Office Programs
-														</td>
-		                        <td>HR majors, Related work experience</td>
-		                        <td>Working Area: Hanoi/Hochiminh office<br>
-																Working 5 days a week
-														</td>
-		                    </tr>
-												<tr>
-														<td>Business Management (ACCONUTING)</td>
-														<td>University Graduate / Major Independent, <br>
-																Using Office Programs
-														</td>
-														<td>Accounting / finance majors, Related work experience</td>
-														<td>Working Area: Hanoi/Hochiminh office<br>
-																Working 5 days a week
-														</td>
-												</tr>
-		                    <tr>
-		                        <td>Sales (PhotoCopier / PC)</td>
-		                        <td>University Graduate / Major Independent, <br>
-																Using Office Programs</td>
-		                        <td>Computer Technology Majors, Related work experience</td>
-		                        <td>Working Area: Hanoi/Hochiminh office<br>
-																Working 5 days a week</td>
-		                    </tr>
-		                    <tr>
-		                        <td>Sales (Car)</td>
-		                        <td>University Graduate / Major Independent, <br>
-																Using Office Programs</td>
-		                        <td>Automobile Majors, Related work experience</td>
-		                        <td>Working Area: Hanoi/Hochiminh office<br>
-																Working 5 days a week</td>
-		                    </tr>
-												<tr>
-														<td>Sales (Man-Lift)</td>
-														<td>University Graduate / Major Independent, <br>
-																Using Office Programs</td>
-														<td>Related work experience</td>
-														<td>Working Area: Hanoi/Hochiminh office<br>
-																Working 5 days a week</td>
-												</tr>
-												<tr>
-														<td>PhotoCopier Engineer</td>
-														<td>University Graduate / Major Independent</td>
-														<td>Manufacturers Work Experience, Related work experience</td>
-														<td>Working Area: Hanoi/Hochiminh office<br>
-																Working 6 days a week</td>
-												</tr>
-												<tr>
-														<td>Man-Lift Engineer</td>
-														<td>HighSchool Graduate / Major Independent</td>
-														<td>Maintenance license holders, Related work experience</td>
-														<td>Working Area: 시외주기장<br>
-																Working 6 days a week</td>
-												</tr>
-												<tr>
-														<td>Driver</td>
-														<td>More than 2 years driving experience, 25 years over</td>
-														<td>Level D Licensing holdings, Driving Experience 5 years over, Rental Car Driver work experience </td>
-														<td>Working Area: depending on the customer's request <br>
-														    Working 6 days a week and Providing OT</td>
-												</tr>
-		                </tbody>
-		            </table>
-		        </div>
-		    </div>
-		</div>
+		        <div class="col-lg-12">
+		            <ul class="collapsible-doodads">
+		                <li class="active clearfix">
+		                    <div class="gui-button">
+		                    <div class="content" >
+		                        <h5> Lorem ipsum dolor sit amet </h5>
+
+		                <li class="clearfix">
+		                    <div class="gui-button">
+		                    <div class="content" >
+		                        <h5> Lorem ipsum dolor sit amet</h5>
+
+		                <li class="clearfix">
+		                    <div class="gui-button">
+		                    <div class="content">
+		                        <h5> Lorem ipsum dolor sit amet</h5>
+
+		                <li class="clearfix">
+		                    <div class="gui-button">
+		                    <div class="content">
+		                        <h5> Lorem ipsum dolor sit amet</h5>
+	       	</div>
 
 </section>
 
@@ -613,10 +549,10 @@
 
 <div class="copyright">
   <div class="container">
-    <div class="col-md-4">
-      <p>COPYRIGHT 2016 IS KOREARENTAL CORP. ALL RIGHTS RESERVED.</p>
-    </div>
 		<img src="/img/menu-logo.png">
+    <div class="col-md-4">
+      <i class="fa fa-copyright" aria-hidden="true"></i>IS KOREARENTAL CORP. ALL RIGHTS RESERVED.
+    </div>
     <div class="col-md-4">
       <ul class="bottom_ul">
         <li><a href="#about">About</a></li>
@@ -934,6 +870,15 @@ $(document).ready(function(){
             $table.find('tbody').prepend($('<tr class="no-result text-center"><td colspan="'+ $table.find('.filters th').length +'">No result found</td></tr>'));
         }
     });
+});
+</script>
+<script>
+$(function(){
+  var _collapseList = $('ul.collapsible-doodads');
+  $("ul.collapsible-doodads li div.gui-button").on('click', function(e) {
+    $(_collapseList).children('li.active').removeClass('active');
+    $(this).parent('li').addClass('active');
+  });
 });
 </script>
 
