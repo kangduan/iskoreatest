@@ -1405,21 +1405,6 @@ p {
 }
 /*product*/
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,900,800,700,600);
-  h2 {
-  border-bottom: 10px solid red;
-  font-family: 'Raleway', sans-serif;
-  font-size: 65px;
-  font-weight: 900;
-  margin: 0 auto;
-  padding: 20px 0 3px;
-  text-align: center;
-  text-transform: uppercase;
-  width: 40.2%;
-}
-img {
-  height: 200px !important;
-}
-
 .row.text-center p {
   font-size: 17px;
   font-weight: 600;
@@ -1428,11 +1413,6 @@ img {
   text-transform: uppercase;
 }
 
-.h3, h3 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 24px;
-  text-transform: uppercase;
-}
 .btn-default {
   background: transparent none repeat scroll 0 0;
   border: 2px solid #fff;
