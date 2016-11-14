@@ -628,10 +628,10 @@
     </div>
 </footer>
   -->
-<!-- basic scroll
+<!-- basic scroll -->
 <script>
 $(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
+  $('.scroll-btn').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -695,7 +695,7 @@ $(document).ready(function(){
 <script type="text/javascript">
 	$(window).load(function(){
 
-		$('.main-nav li a .scroll-btn').bind('click',function(event){
+		$('.main-nav li a').bind('click',function(event){
 			var $anchor = $(this);
 
 			$('html, body').stop().animate({
