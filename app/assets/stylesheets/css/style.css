@@ -54,8 +54,6 @@ a, a:hover, a:active{ outline:0px !important}
 /* Primary Styles
 ---------------------------------*/
 body {
-  /*overflow-x: hidden;
-  overflow-y: scroll;*/
 	background:#fff;
 	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
@@ -97,8 +95,8 @@ p{
 /* Header Styles
 ---------------------------------*/
 .header{
-  background:url(../assets/img/pw_maze_black_2X.png) left top repeat;
-	text-align:center;
+  text-align:center;
+  background:url(../img/pw_maze_black_2X.png) left top repeat;
 	padding:280px 0;
 }
 .logo{
