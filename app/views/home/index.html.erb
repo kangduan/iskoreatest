@@ -41,7 +41,7 @@
 	                </div>
 
 	            </div>
-	            <div class="main-text" accesskey="" style="margin-top:480px; margin-left:20px;">
+	            <div class="main-text" accesskey="" style="margin-top:480px; margin-left:40px;">
 	                <div class="col-md-12 col-sm-12 text-center">
 
 	                    <div class="">
@@ -671,7 +671,18 @@ $(document).ready(function(){
 <script type="text/javascript">
     $(document).ready(function(e) {
         $('#test').scrollToFixed();
-        $('.res-nav_click .scroll-btn').click(function(){
+        $('.res-nav_click').click(function(){
+            $('.main-nav').slideToggle();
+            return false
+
+        });
+
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(e) {
+        $('#test').scrollToFixed();
+        $('.scroll-btn').click(function(){
             $('.main-nav').slideToggle();
             return false
 
