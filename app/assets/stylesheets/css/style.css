@@ -220,8 +220,8 @@ color: #fff;
 /*====================
 ======Service CSS=====
 ======================*/
-.parallax-section {
-  background-image: url("../img/service/service.jpg");
+#services {
+  background-image:url("../img/service/service.jpg");
   color:#fff;
   text-align:center;
   /*background-color:	#0A0A13;*/
