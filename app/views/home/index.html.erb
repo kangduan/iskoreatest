@@ -241,7 +241,8 @@
 <strong>Category Title</strong>
 <div class="btn-group" style="margin-left:20px;">
 <a href="#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list">
-</span>List</a>
+</span>List</a> <a href="#" id="grid" class="btn btn-default btn-sm"><span
+		class="glyphicon glyphicon-th"></span>Grid</a>
 </div>
 </div>
 <div id="products" class="row list-group">
@@ -831,6 +832,7 @@ $(function() {
 <script>
 $(document).ready(function() {
     $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
+    $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
 });
 </script>
 
