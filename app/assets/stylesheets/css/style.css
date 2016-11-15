@@ -220,7 +220,7 @@ color: #fff;
 /*====================
 ======Service CSS=====
 ======================*/
-#services {
+.parallax-section {
   background-image: url("../img/service/service.jpg");
   color:#fff;
   text-align:center;
