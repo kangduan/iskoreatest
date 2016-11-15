@@ -1187,7 +1187,7 @@ p {
 }
 .item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
 {
-    background: #7cc576;
+    background: #000;
 }
 
 .item.list-group-item .list-group-image
