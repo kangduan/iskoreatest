@@ -9,11 +9,7 @@
 
 </head>
 <body>
-	<!-- Use a container to wrap the slider, the purpose is to enable slider to always fit width of the wrapper while window resize -->
 
-	<!-- Jssor Slider Begin -->
-	<!-- To move inline styles to css file/block, please specify a class name for each element. -->
-	<!-- ================================================== -->
 	<div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto; width: 1140px; height: 442px; overflow: hidden;">
 
 			<!-- Loading Screen -->
@@ -93,8 +89,6 @@
 			<!-- Arrow Right -->
 			<span u="arrowright" class="jssora11r" style="top: 123px; right: 8px;">
 			</span>
-			<!--#endregion Arrow Navigator Skin End -->
-			<a style="display: none" href="http://www.jssor.com">Bootstrap Carousel</a>
 	</div>
 	<!-- Jssor Slider End -->
 
@@ -166,55 +160,7 @@
 			//responsive code end
 	});
 </script>
-	<!-- slide- menu -->
-	<!--
-	    <div class="row">
-	            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-	                <ol class="carousel-indicators">
-	                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-	                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-	                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-	                </ol>
-	                <div class="carousel-inner">
-	                    <div class="item active">
-	                        <img  src="/img/slide/innovate.png" width="1600" height="500" alt="First slide">
-	                        <div class="carousel-caption">
 
-	                        </div>
-	                    </div>
-	                    <div class="item">
-	                        <img src="/img/slide/create.png" width="1600" height="500" alt="Second slide">
-	                        <div class="carousel-caption">
-
-	                        </div>
-	                    </div>
-	                    <div class="item">
-	                        <img src="/img/slide/challenge.png" width="1600" height="500" alt="Third slide">
-	                        <div class="carousel-caption">
-
-	                        </div>
-	                    </div>
-	                </div>
-
-	            </div>
-	            <div class="main-text" accesskey="" style="margin-top:480px; margin-left:50px;">
-	                <div class="col-md-12 col-sm-12 text-center">
-
-	                    <div class="">
-												<span class="scroll-btn">
-												<a href="#about">
-													<span class="mouse">
-														<span>
-														</span>
-													</span>
-													</a>
-														<p>scroll me</p>
-												</span>
-											</div>
-	                </div>
-	            </div>
-	    </div>
--->
 	<nav class="main-nav-outer" id="test"><!--main-nav-start-->
 		<div class="container">
 	        <ul class="main-nav">
@@ -1047,30 +993,6 @@ $(window).load(function(){
 </script>
 <!-- slide -->
 <script>
-$(document).ready( function() {
-    $('#myCarousel').carousel({
-    	interval:   4000
-	});
-
-	var clickEvent = false;
-	$('#myCarousel').on('click', '.nav a', function() {
-			clickEvent = true;
-			$('.nav li').removeClass('active');
-			$(this).parent().addClass('active');
-	}).on('slid.bs.carousel', function(e) {
-		if(!clickEvent) {
-			var count = $('.nav').children().length -1;
-			var current = $('.nav li.active');
-			current.removeClass('active').next().addClass('active');
-			var id = parseInt(current.data('slide-to'));
-			if(count == id) {
-				$('.nav li').first().addClass('active');
-			}
-		}
-		clickEvent = false;
-	});
-});
-
 $(document).ready( function() {
     $('#mapCarousel').carousel({
     	interval:   10000
