@@ -54,6 +54,7 @@ a, a:hover, a:active{ outline:0px !important}
 /* Primary Styles
 ---------------------------------*/
 body {
+  overflow-x: hidden;
 	background:#fff;
 	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
